@@ -1,0 +1,517 @@
+using System;
+
+namespace project_finals
+{
+	class Program
+	{
+		private static void PrintMan(int Wrong)
+		{
+			if(Wrong==0)
+			{
+				Console.Clear();
+				Console.SetCursorPosition(50,1);
+				Console.WriteLine("+-----+");
+				Console.SetCursorPosition(50,2);
+				Console.WriteLine("      |");
+				Console.SetCursorPosition(50,3);
+				Console.WriteLine("      |");
+				Console.SetCursorPosition(50,4);
+				Console.WriteLine("      |");
+				Console.SetCursorPosition(50,5);
+				Console.WriteLine("      |");
+				Console.SetCursorPosition(50,6);
+				Console.WriteLine("      |");
+				Console.SetCursorPosition(50,7);
+				Console.WriteLine("      |");
+				Console.SetCursorPosition(50,8);
+				Console.WriteLine("  ======= ");
+			}
+			 else if(Wrong==1)
+			{
+			 	Console.Clear();
+			 	Console.SetCursorPosition(50,1);
+				Console.WriteLine(" +-----+");
+				Console.SetCursorPosition(50,2);
+				Console.WriteLine("   O   |");
+				Console.SetCursorPosition(50,3);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,4);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,5);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,6);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,7);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,8);
+				Console.WriteLine("   ======= ");
+			}
+			else if(Wrong==2)
+			{
+				Console.Clear();
+				Console.SetCursorPosition(50,1);
+				Console.WriteLine(" +-----+");
+				Console.SetCursorPosition(50,2);
+				Console.WriteLine("   |   |");
+				Console.SetCursorPosition(50,3);
+				Console.WriteLine("   O   |");
+				Console.SetCursorPosition(50,4);
+				Console.WriteLine("  /|\\  |");
+				Console.SetCursorPosition(50,5);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,6);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,7);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,8);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,9);
+				Console.WriteLine("   ======= ");
+			}
+			else if(Wrong==3)
+			{
+				Console.Clear();
+				Console.SetCursorPosition(50,1);
+				Console.WriteLine("  +----+");
+				Console.SetCursorPosition(50,2);
+				Console.WriteLine("   |   |");
+				Console.SetCursorPosition(50,3);
+				Console.WriteLine("   O   |");
+				Console.SetCursorPosition(50,4);
+				Console.WriteLine("  /|\\  |");
+				Console.SetCursorPosition(50,5);
+				Console.WriteLine("   |   |");
+				Console.SetCursorPosition(50,6);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,7);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,8);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,10);
+				Console.WriteLine("   ======= ");
+			}
+			else if(Wrong==4)
+			{
+				Console.Clear();
+				Console.SetCursorPosition(50,1);
+				Console.WriteLine("  +----+");
+				Console.SetCursorPosition(50,2);
+				Console.WriteLine("   |   |");
+				Console.SetCursorPosition(50,3);
+				Console.WriteLine("   O   |");
+				Console.SetCursorPosition(50,4);
+				Console.WriteLine("  /|\\  |");
+				Console.SetCursorPosition(50,5);
+				Console.WriteLine(" | | | |");
+				Console.SetCursorPosition(50,6);
+				Console.WriteLine("   M   |");
+				Console.SetCursorPosition(50,7);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,8);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,9);
+				Console.WriteLine("   ======= ");
+			}
+			else if(Wrong==5)
+			{
+				Console.Clear();
+				Console.SetCursorPosition(50,1);
+				Console.WriteLine(" +----+");
+				Console.SetCursorPosition(50,2);
+				Console.WriteLine("   |   |");
+				Console.SetCursorPosition(50,3);
+				Console.WriteLine("  /O\\  |");
+				Console.SetCursorPosition(50,4);
+				Console.WriteLine("  \\|/  |");
+				Console.SetCursorPosition(50,5);
+				Console.WriteLine("   |   |");
+				Console.SetCursorPosition(50,6);
+				Console.WriteLine("   M   |");
+				Console.SetCursorPosition(50,7);
+				Console.WriteLine("  / \\  |");
+				Console.SetCursorPosition(50,8);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,9);
+				Console.WriteLine("  ======= ");
+			}
+			else if(Wrong==6)
+			{
+				Console.Clear();
+				Console.SetCursorPosition(50,1);
+				Console.WriteLine("  +----+");
+				Console.SetCursorPosition(50,2);
+				Console.WriteLine("   |   |");
+				Console.SetCursorPosition(50,3);
+				Console.WriteLine("  /O   |");
+				Console.SetCursorPosition(50,4);
+				Console.WriteLine("  \\|/| |");
+				Console.SetCursorPosition(50,5);
+				Console.WriteLine("   |   |");
+				Console.SetCursorPosition(50,6);
+				Console.WriteLine("   M   |");
+				Console.SetCursorPosition(50,7);
+				Console.WriteLine("  | \\  |");
+				Console.SetCursorPosition(50,8);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,9);
+				Console.WriteLine("  ======= ");
+			}
+			else if(Wrong==7)
+			{
+				Console.Clear();
+				Console.SetCursorPosition(50,1);
+				Console.WriteLine("  +----+");
+				Console.SetCursorPosition(50,2);
+				Console.WriteLine("   |   |");
+				Console.SetCursorPosition(50,3);
+				Console.WriteLine("   O   |");
+				Console.SetCursorPosition(50,4);
+				Console.WriteLine(" |\\|/| |");
+				Console.SetCursorPosition(50,5);
+				Console.WriteLine("   |   |");
+				Console.SetCursorPosition(50,6);
+				Console.WriteLine("   M   |");
+				Console.SetCursorPosition(50,7);
+				Console.WriteLine("  | \\  |");
+				Console.SetCursorPosition(50,8);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,9);
+				Console.WriteLine("  ======= ");
+			}
+			else if(Wrong==8)
+			{
+				Console.Clear();
+				Console.SetCursorPosition(50,1);
+				Console.WriteLine("  +----+");
+				Console.SetCursorPosition(50,2);
+				Console.WriteLine("   |   |");
+				Console.SetCursorPosition(50,3);
+				Console.WriteLine("   O\\  |");
+				Console.SetCursorPosition(50,4);
+				Console.WriteLine(" |\\|/  |");
+				Console.SetCursorPosition(50,5);
+				Console.WriteLine("   |   |");
+				Console.SetCursorPosition(50,6);
+				Console.WriteLine("   M   |");
+				Console.SetCursorPosition(50,7);
+				Console.WriteLine("  | \\  |");
+				Console.SetCursorPosition(50,8);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,9);
+				Console.WriteLine("  ======= ");
+			}
+			else if(Wrong==9)
+			{
+				Console.Clear();
+				Console.SetCursorPosition(50,1);
+				Console.WriteLine("  +----+");
+				Console.SetCursorPosition(50,2);
+				Console.WriteLine("   |   |");
+				Console.SetCursorPosition(50,3);
+				Console.WriteLine("   O   |");
+				Console.SetCursorPosition(50,4);
+				Console.WriteLine("  /|\\  |");
+				Console.SetCursorPosition(50,5);
+				Console.WriteLine(" | | | |");
+				Console.SetCursorPosition(50,6);
+				Console.WriteLine("   M   |");
+				Console.SetCursorPosition(50,7);
+				Console.WriteLine("  | |  |");
+				Console.SetCursorPosition(50,8);
+				Console.WriteLine("       |");
+				Console.SetCursorPosition(50,9);
+				Console.WriteLine("  ======= ");
+			}
+			
+		}//end of printman method
+//======================================================================================================================================================
+		public static void Main(string[] args)
+		{//Initialized
+			int amountWrong,health,score,index,num1,num2,n1,n2,r,a;
+			amountWrong = 0;
+			health=10;
+			score=0;
+			string[] Op1 ={"+","-"};
+			string[] Op2 ={"+","-","*"};
+			string[] Op3 ={"+","-","*","/"};
+			Random rnd = new Random();
+			//get the user input choose
+			lvl:
+			Console.Clear();
+			Console.SetCursorPosition(50,1);
+			Console.WriteLine("Pick the level");
+			Console.SetCursorPosition(35,2);
+			Console.WriteLine("[A] ===Easy=== [B] ===Medium=== [C] ===Hard===");
+			Console.SetCursorPosition(55,4);
+			Console.WriteLine("   +---+");
+			Console.SetCursorPosition(55,5);
+			Console.WriteLine("   |   |");
+			Console.SetCursorPosition(55,6);
+			Console.WriteLine("   O   |");
+			Console.SetCursorPosition(55,7);
+			Console.WriteLine("  /|\\  |");
+			Console.SetCursorPosition(55,8);
+			Console.WriteLine(" | | | |");
+			Console.SetCursorPosition(55,9);
+			Console.WriteLine("   M   |");
+			Console.SetCursorPosition(55,10);
+			Console.WriteLine("  | |  |");
+			Console.SetCursorPosition(55,11);
+			Console.WriteLine("       |");
+			Console.SetCursorPosition(55,12);
+			Console.WriteLine("  ======= ");
+			Console.SetCursorPosition(50,20);
+			Console.Write("Input your Choice: ");
+			var Choice =Console.ReadKey();
+			
+			if(Choice.Key==ConsoleKey.A)//=============================================================easy===========================================================
+			{
+				do{
+				Easy:
+					Console.Clear();
+				if(health!=0){
+						
+					index = rnd.Next(Op1.Length);
+						num1 =rnd.Next(1,101);
+						num2 =rnd.Next(1,101);
+						n1=Math.Max(num1,num2);
+						n2=Math.Min(num1,num2);
+						PrintMan(amountWrong);
+						Console.Write("Health:{0}\n",health);
+						Console.Write("Score:{0}\n",score);
+						Console.WriteLine("\n===[ {0}{1}{2} ]===",n1,Op1[index],n2);
+						Console.Write("Answer:");
+						a = int.Parse(Console.ReadLine());
+						
+					if(Op1[index]=="+")//add=========================================================================================================
+					{
+						r=n1+n2;
+						
+							if(a==r)
+							{
+							score+=5;
+							Console.WriteLine("Correct!");
+							}
+							else if(a!=r && health!=0)
+							{
+							health--;
+							amountWrong++;
+							Console.WriteLine("Wrong!!");
+							}
+					}
+					else if(Op1[index]=="-")//minus====================================================================================================
+					{
+						r=n1-n2;
+						
+							if(a==r)
+							{
+							score+=5;
+							Console.WriteLine("Correct!");
+							}
+							else
+							{
+							health--;
+							amountWrong++;
+							Console.WriteLine("Wrong!!");
+							}
+						}
+					goto Easy;
+					
+					}
+				}while(amountWrong <=5 && health >=1);
+			}//choice 1 end
+			else if(Choice.Key==ConsoleKey.B)//==============================================medium===================================================================
+			{
+				do{
+				Easy:
+					Console.Clear();
+				if(health!=0){
+					index = rnd.Next(Op2.Length);
+						num1 =rnd.Next(1,101);
+						num2 =rnd.Next(1,101);
+						n1=Math.Max(num1,num2);
+						n2=Math.Min(num1,num2);
+						PrintMan(amountWrong);
+						Console.Write("Health:{0}\n",health);
+						Console.Write("Score:{0}\n",score);
+						Console.WriteLine("\n===[ {0}{1}{2} ]===",n1,Op2[index],n2);
+						Console.Write("Answer:");
+						a = int.Parse(Console.ReadLine());
+						
+					if(Op2[index]=="+")//add
+					{
+						r=n1+n2;
+						
+							if(a==r)
+							{
+							score+=5;
+							Console.WriteLine("Correct!");
+							}
+							else
+							{
+							health--;
+							amountWrong++;
+							Console.WriteLine("Wrong!!");
+							}
+					}
+					else if(Op2[index]=="-")//minus
+					{
+						r=n1-n2;
+						
+							if(a==r)
+							{
+							score+=5;
+							Console.WriteLine("Correct!");
+							}
+							else
+							{
+							health--;
+							amountWrong++;
+							Console.WriteLine("Wrong!!");
+							}
+					}
+					else if(Op2[index]=="*")//multiply
+					{
+						r=n1*n2;
+						
+							if(a==r)
+							{
+							score+=5;
+							Console.WriteLine("Correct!");
+							}
+							else
+							{
+							health--;
+							amountWrong++;
+							Console.WriteLine("Wrong!!");
+							}
+						}
+					goto Easy;
+					}
+				}while(amountWrong <=5 && health >=1);
+			}//end of choice 2
+			else if(Choice.Key==ConsoleKey.C)
+			{
+			do{
+				Easy:
+					Console.Clear();
+			if(health!=0){
+						
+					index = rnd.Next(Op3.Length);
+						num1 =rnd.Next(1,101);
+						num2 =rnd.Next(1,101);
+						n1=Math.Max(num1,num2);
+						n2=Math.Min(num1,num2);
+						PrintMan(amountWrong);
+						Console.Write("Health:{0}\n",health);
+						Console.Write("Score:{0}\n",score);
+						Console.WriteLine("\n===[ {0}{1}{2} ]===",n1,Op3[index],n2);
+						Console.Write("Answer:");
+						a = int.Parse(Console.ReadLine());
+						
+					if(Op3[index]=="+")//add
+					{
+						r=n1+n2;
+						
+							if(a==r)
+							{
+							score+=5;
+							Console.WriteLine("Correct!");
+							goto Easy;
+							}
+							else
+							{
+							health--;
+							amountWrong++;
+							Console.WriteLine("Wrong!!");
+							goto Easy;
+							}
+					}
+					else if(Op3[index]=="-")//minus
+					{
+						r=n1-n2;
+						
+							if(a==r)
+							{
+							score+=5;
+							Console.WriteLine("Correct!");
+							goto Easy;
+							}
+							else
+							{
+							health--;
+							amountWrong++;
+							Console.WriteLine("Wrong!!");
+							goto Easy;
+							}
+					}
+					else if(Op3[index]=="*")//multiply
+					{
+						r=n1*n2;
+						
+							if(a==r)
+							{
+							score+=5;
+							Console.WriteLine("Correct!");
+							goto Easy;
+							}
+							else
+							{
+							health--;
+							amountWrong++;
+							Console.WriteLine("Wrong!!");
+							goto Easy;
+							}
+						}
+					else if(Op3[index]=="/")//multiply
+					{
+						r=n1/n2;
+						
+							if(a==r)
+							{
+							score+=5;
+							Console.WriteLine("Correct!");
+							goto Easy;
+							}
+							else
+							{
+							health--;
+							amountWrong++;
+							Console.WriteLine("Wrong!!");
+							goto Easy;
+							}
+						}
+					goto Easy;
+					}
+				}while(amountWrong <=5 && health >=1);	
+			}//end of choices 3
+			else
+			{
+				Console.WriteLine("Wrong Input Try again..");
+				goto lvl;
+			}
+			                    Console.WriteLine(  @"                                       ____                          ,----..                                        
+  ,----..       ,---,                ,'  , `.     ,---,.            /   /   \                    ,---,. ,-.----.    
+ /   /   \     '  .' \            ,-+-,.' _ |   ,'  .' |           /   .     :         ,---.   ,'  .' | \    /  \   
+|   :     :   /  ;    '.       ,-+-. ;   , || ,---.'   |          .   /   ;.  \       /__./| ,---.'   | ;   :    \  
+.   |  ;. /  :  :       \     ,--.'|'   |  ;| |   |   .'         .   ;   /  ` ;  ,---.;  ; | |   |   .' |   | .\ :  
+.   ; /--`   :  |   /\   \   |   |  ,', |  ': :   :  |-,         ;   |  ; \ ; | /___/ \  | | :   :  |-, .   : |: |  
+;   | ;  __  |  :  ' ;.   :  |   | /  | |  || :   |  ;/|         |   :  | ; | ' \   ;  \ ' | :   |  ;/| |   |  \ :  
+|   : |.' .' |  |  ;/  \   \ '   | :  | :  |, |   :   .'         .   |  ' ' ' :  \   \  \: | |   :   .' |   : .  /  
+.   | '_.' : '  :  | \  \ ,' ;   . |  ; |--'  |   |  |-,         '   ;  \; /  |   ;   \  ' . |   |  |-, ;   | |  \  
+'   ; : \  | |  |  '  '--'   |   : |  | ,     '   :  ;/|          \   \  ',  /     \   \   ' '   :  ;/| |   | ;\  \ 
+'   | '/  .' |  :  :         |   : '  |/      |   |    \           ;   :    /       \   `  ; |   |    \ :   ' | \.' 
+|   :    /   |  | ,'         ;   | |`-'       |   :   .'            \   \ .'         :   \ | |   :   .' :   : :-'   
+ \   \ .'    `--''           |   ;/           |   | ,'               `---`            '---");
+			Console.WriteLine("Do you want to Continue? Y/N");
+			var P = Console.ReadKey();
+			if(P.Key == ConsoleKey.Y)
+			{
+				amountWrong=0;
+				health+=10;				
+				goto lvl;
+			}
+			Console.ReadKey(true);
+		}//end of main method
+	}//end of class
+}
